@@ -1,0 +1,28 @@
+img.center {
+	width: 417px;
+	position: fixed;
+	margin-top: 60px;
+	margin-left: 360px;
+	
+}
+
+header {
+	margin-top: 80px;
+	margin-left: 130px;
+}
+
+p.name {
+	font-family: 'Anton', sans-serif;
+	font-size: 92px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	line-height: 1;
+	text-transform: uppercase;
+
+}
+
+p.title {
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 0px;
+}
+
