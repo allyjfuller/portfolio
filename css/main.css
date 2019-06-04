@@ -1,6 +1,6 @@
 img.center {
 	width: 417px;
-	position: fixed;
+	position: absolute;
 	margin-top: 60px;
 	margin-left: 360px;
 	
@@ -25,4 +25,18 @@ p.title {
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0px;
 }
+
+section.content {
+	margin-top: 150px;
+}
+
+h2 {
+	font-family: 'Anton', sans-serif;
+}
+
+h4,
+p.details {
+	font-family: 'Montserrat', sans-serif;
+}
+
 
