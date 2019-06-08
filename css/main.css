@@ -52,13 +52,14 @@ p.month {
 
 /* SLIDE_SHOW */
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.display-container {
   position: relative;
 }
 
 /* Hide the images by default */
 .mySlides1,
-.mySlides2 {
+.mySlides2,
+.mySlides3 {
   display: none;
   width: 100%;
 }
@@ -69,6 +70,10 @@ p.month {
 
 .mySlides2 {
   height: 445px;
+}
+
+.mySlides3 {
+  height: 400px;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -82,9 +87,11 @@ p.month {
   border: none;
   display: inline-block;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 12px;
   vertical-align: middle;
   overflow: hidden;
+  border-radius: 30px;
+  margin-top: 10px;
   text-decoration: none;
   color: #fff;
   background-color: #000;
@@ -98,12 +105,13 @@ p.month {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  color: #888;
+  color: #000;
   
 }
 
 /* Container for image text */
 p#caption {
+  position: relative;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
@@ -121,16 +129,20 @@ p#caption {
 
 
 /* Style the tab */
-.tab {
+.tabs {
   overflow: hidden;
-  background-color: #FFF;
   margin-top: 40px;
 }
 
 /* Style the buttons inside the tab */
-.tab button {
+button.sg-button,
+button.eb-button,
+button.m-button {
   float: left;
   font-family: 'Montserrat', sans-serif;
+  border-radius: 30px;
+  background-color: #000;
+  color: #FFF;
   border-radius: 30px;
   border: none;
   outline: none;
@@ -143,24 +155,18 @@ p#caption {
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #000;
-  color: #FFF;
-  border-radius: 30px;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #000;
-  color: #FFF;
+button:hover,
+button:active {
+  background-color: #FFF;
+  color: #000;
   border-radius: 30px;
 }
 
 /* Style the tab content */
-.tabcontent {
-  display: none;
+.spiritGuide,
+.euroBus,
+.menew {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  padding: 6px 0px;
-  margin-bottom: 100px;
+  padding: 6px 12px 80px;
 }
