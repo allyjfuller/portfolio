@@ -57,8 +57,18 @@ p.month {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1,
+.mySlides2 {
   display: none;
+  width: 100%;
+}
+
+.mySlides1 {
+  height: 393px;
+}
+
+.mySlides2 {
+  height: 445px;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -69,50 +79,36 @@ p.month {
 /* Next & previous buttons */
 .prev,
 .next {
+  border: none;
+  display: inline-block;
+  padding: 8px 14px;
+  font-size: 14px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
   cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: #000;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-  transition-duration: 0.5s;
+  white-space: nowrap;
+  outline: none;
+  transition-duration: 0.3s;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  color: #626262;
-  font-size: 32px;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  color: #888;
+  
 }
 
 /* Container for image text */
-.caption-container {
+p#caption {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
   background-color: #FFF;
+  margin-top: 40px;
   padding: 2px 16px;
   color: #000;
 }
@@ -123,40 +119,26 @@ p.month {
   clear: both;
 }
 
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
 
 /* Style the tab */
 .tab {
   overflow: hidden;
   background-color: #FFF;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
   float: left;
   font-family: 'Montserrat', sans-serif;
+  border-radius: 30px;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 10px 12px;
-  margin: 0 10px;
-  transition: 0.3s;
+  margin-left: 0px;
+  margin-right: 10px;
+  transition-duration: 0.3s;
   font-size: 14px;
 }
 
@@ -179,5 +161,6 @@ p.month {
   display: none;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  padding: 6px 12px;
+  padding: 6px 0px;
+  margin-bottom: 100px;
 }
