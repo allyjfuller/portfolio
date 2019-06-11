@@ -4,7 +4,7 @@
 
 .row {
     max-width: 1600px;
-    padding-left: 130px;
+    padding-left: 100px;
     padding-right: 20px;
     margin: 0 auto;
 }
@@ -12,16 +12,15 @@
 .col-1,
 .col-2 {
     float: left;
-    padding-left: 1.04166666%;
-    padding-right: 1.04166666%;
+    padding-right: 2%;
 }
 
 .col-1 {
-	width: 66%;
+	width: 65%;
 }
 
 .col-2 {
-    width: 25%;
+    width: 30%;
 }
 
 .tab-col-1,

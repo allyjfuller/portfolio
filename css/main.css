@@ -2,7 +2,7 @@ img.center {
 	width: 417px;
 	position: absolute;
 	margin-top: 60px;
-	margin-left: 360px;
+	margin-left: 330px;
 	
 }
 
@@ -12,7 +12,7 @@ a {
 
 header {
 	margin-top: 80px;
-	margin-left: 130px;
+	margin-left: 100px;
 }
 
 p.name {
@@ -192,4 +192,65 @@ button:active {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   padding: 6px 12px 80px;
+}
+
+
+/* skills */
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 30px;
+}
+
+.skills {
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  border-radius: 30px;
+  color: white;
+}
+
+.html {width: 100%; background-color: #000;}
+.js {width: 100%; background-color: #000;}
+.react {width: 85%; background-color: #000;}
+.ajax {width: 95%; background-color: #000;}
+.git {width: 100%; background-color: #000;}
+.node {width: 95%; background-color: #000;}
+.english {width: 100%; background-color: #000;}
+.spanish {width: 50%; background-color: #000;}
+.french {width: 40%; background-color: #000;}
+.italian {width: 20%; background-color: #000;}
+.arabic {width: 15%; background-color: #000;}
+
+/* strengths */
+
+ul {
+  padding-left: 0px;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+li {
+  font-size: 14px;
+  transition: 0.4s;
+  padding: 5px 0px;
+
+}
+
+li:hover {
+  font-size: 18px;
+  cursor: default;
+}
+
+.thank-you {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Anton', sans-serif;
+  font-size: 92px;
 }
