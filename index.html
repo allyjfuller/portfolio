@@ -14,12 +14,15 @@
 <header>
     <p class="title">Software Engineer</p>
     <p class="name">Alexandra</p><p class="name">Fuller</p>
+    <form method="post" action="mailto:ally@eurotrip.com" >
+    <input type="submit" value="CONTACT" /> 
+    </form>
 </header>
 
 <section class="row content">
   <div class="col-1">
     <h2>Objective</h2>
-    <h4>Lorem ipsum dolor sit amet</h4>
+    <h4>The Analytical Artist</h4>
 
       <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus. Nulla facilisi. Aenean nec lacinia lacus, ut pellentesque leo. Phasellus suscipit, ipsum id vulputate dignissim, lacus ante feugiat neque, eu dictum ex tortor at leo. Donec sollicitudin urna sed hendrerit blandit. In sit amet ex a massa hendrerit condimentum.</p>
 
@@ -32,6 +35,7 @@
       <h4>Lorem ipsum dolor sit amet</h4>
       <p class="month">Month - Month</p>
       <p class="details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus. Nulla facilisi. Aenean nec lacinia lacus, ut pellentesque leo. Phasellus suscipit, ipsum id vulputate dignissim, lacus ante feugiat neque, eu dictum ex tortor at leo. Donec sollicitudin urna sed hendrerit blandit. In sit amet ex a massa hendrerit condimentum.</p>
+
 
       <h2>Projects</h2>
 
@@ -60,37 +64,40 @@
   <button class="sg-button" onclick="openSpiritGuide('sgProgression')">Progression</button>
 </div>
 
-<div id="sgAbout" class="spiritGuide">
-  <p>Spirit Guide is a cocktail search engine that utilizes TheCocktailDB API. Developed for cockatil bartenders to utilize during busy shifts; instead of flipping through a rolladex full of cocktails, quickly pull up Spirit Guide on your POS system to search and favorite any cocktail recipe.
-  </p>
-</div>
+<div class="tab-content">
+  <div id="sgAbout" class="spiritGuide">
+    <p><i>Spirit Guide</i> is a cocktail search engine that utilizes TheCocktailDB API.</p>
+    <p>Developed for cockatil bartenders to utilize during busy shifts; instead of flipping through a rolladex full of cocktails, quickly pull up Spirit Guide on your POS system to search and favorite any cocktail recipe.
+    </p>
+  </div>
 
-<div id="sgTechStack" class="spiritGuide" style="display:none">
-  <ul>
-    <li>HTML/CSS</li>
-    <li>JavaScript</li>
-    <li>AJAX/JSON</li>
-    <li>Third Party API Implementation</li>
-    <li>Git & GitHub</li>
-  </ul>  
-</div>
+  <div id="sgTechStack" class="spiritGuide" style="display:none">
+    <ul>
+      <li>HTML/CSS</li>
+      <li>JavaScript</li>
+      <li>AJAX/JSON</li>
+      <li>Third Party API Implementation</li>
+      <li>Git & GitHub</li>
+    </ul>  
+  </div>
 
-<div id="sgLiveApp" class="spiritGuide" style="display:none">
-  <p>
-    <a href="https://cocky-panini-ac8109.netlify.com/">https://cocky-panini-ac8109.netlify.com/
-    </a>
-  </p> 
-</div>
+  <div id="sgLiveApp" class="spiritGuide" style="display:none">
+    <p>
+      <a href="https://cocky-panini-ac8109.netlify.com/">Spirit Guide Live!
+      </a>
+    </p> 
+  </div>
 
-<div id="sgGitHub" class="spiritGuide" style="display:none">
-  <p>
-    <a href="https://github.com/allyjfuller/Spirit-Guide-Final">https://github.com/allyjfuller/Spirit-Guide-Final
-    </a>
-  </p> 
-</div>
+  <div id="sgGitHub" class="spiritGuide" style="display:none">
+    <p>
+      <a href="https://github.com/allyjfuller/Spirit-Guide-Final">Client & Server Repository
+      </a>
+    </p> 
+  </div>
 
-<div id="sgProgression" class="spiritGuide" style="display:none">
-  <p>Coming Soon</p> 
+  <div id="sgProgression" class="spiritGuide" style="display:none">
+    <p>I plan to improve this app by utilizing more search term and filter options such as search by ingredient, search by glassware, filter by liquor, filter by multi-ingredient. I also plan to add a feature that allows the user to add their cocktails to the database. </p> 
+  </div>
 </div>
 
 
@@ -118,24 +125,64 @@
   <button class="eb-button" onclick="openEuroBus('ebProgression')">Progression</button>
 </div>
 
-<div id="ebAbout" class="euroBus">
-  <p>Testing testing testing testing testing</p>
-</div>
+<div class="tab-content">
+  <div id="ebAbout" class="euroBus">
+    <p><i>EuroBus: Trip-planner</i> is a trip-planning app for anyone traveling by bus in Europe. Since traveling by bus isn't typically as common as traveling by train or plane, it can seem confusing and chaotic at times.</p>
+    <p>EuroBus: Trip-planner helps you keep track of which cities you plan to visit, the dates you plan to travel, and the bus company you've booked your ticket with. You can even add comments to your trip in case you need to remember to pack a snack because the bus doesn't make stops, or if the bus stop is located somewhere random and you need to give yourself very specific directions.</p>
+    <p>As an added bonus, the trip-planner also comes with a Travel Diary feature for recording your special travel memories. Bon Voyage!</p>
+  </div>
 
-<div id="ebTechStack" class="euroBus" style="display:none">
-  <p>Testing testing testing testing</p> 
-</div>
+  <div id="ebTechStack" class="euroBus" style="display:none">
+    <div class="tab-col-1">
+    <p><i>Client:</i></p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>AJAX/JSON</li>
+    </ul>
+    </div>
+    <div class="tab-col-2">
+    <p><i>Server:</i></p>
+    <ul>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>Mocha</li>
+      <li>Chai</li>
+      <li>Mongo/Mongoose</li>
+    </ul>
+  </div>
+    <div class="tab-col-3">
+      <p class="invisible">Server cont.</p>
+      <ul>
+      <li>bcryptjs</li>
+      <li>Passport</li>
+      <li>Heroku</li>
+      <li>TravisCI</li>
+      <li>mLab</li>
+    </ul>
+  </div>
+  </div>
 
-<div id="ebLiveApp" class="euroBus" style="display:none">
-  <p>Testing testing testing</p> 
-</div>
+  <div id="ebLiveApp" class="euroBus" style="display:none">
+    <p>
+      <a href="https://vast-savannah-39610.herokuapp.com/">EuroBus Live!
+      </a>
+    </p>  
+  </div>
 
-<div id="ebGitHub" class="euroBus" style="display:none">
-  <p>Testing testing</p> 
-</div>
+  <div id="ebGitHub" class="euroBus" style="display:none">
+    <p>
+    <a href="https://github.com/allyjfuller/Spirit-Guide-Final">Client & Server Repository
+      </a>
+    </p>
+  </div>
 
-<div id="ebProgression" class="euroBus" style="display:none">
-  <p>Testing</p> 
+  <div id="ebProgression" class="euroBus" style="display:none">
+    <p>This app ultimately had to be scaled down and simplified for dealine purposes. Initially, it was supposed to be a feature of a larger EuroBus App that works in affiliation with <a href="https://distribusion.com/">Distribusion</a>.</p>
+    <p>Moving forward, I plan to complete this bus booking app and launch it to become the most popular booking platform for Buses in Europe, as well as a staple for commuters and budget travelers alike.</p> 
+  </div>
 </div>
 
 <!-- MENEW -->
@@ -162,28 +209,128 @@
   <button class="m-button" onclick="openMenew('mProgression')">Progression</button>
 </div>
 
-<div id="mAbout" class="menew">
-  <p>Testing testing testing testing testing</p>
+<div class="tab-content">
+  <div id="mAbout" class="menew">
+    <p><i>Menew</i> is an app that keeps you up to date on menu changes from your favorite restaurants. Restaurants and bars can create an account to post their new items for patrons to see on the front page.
+    </p>
+    <p>
+    When is the spring cocktail menu launching? Follow on Menew. What are the Thanksgiving specials? Follow on Menew. Keep your loyal customers in the first-to-know!
+    </p>
+    <p>Craving something specific? Use the search feature to search new menu items by name.</p>
+  </div>
+
+  <div id="mTechStack" class="menew" style="display:none">
+    <div class="tab-col-1">
+    <p><i>Client:</i></p>
+    <ul>
+      <li>React</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>Redux</li>
+      <li>AJAX/JSON</li>
+    </ul>
+    </div>
+    <div class="tab-col-2">
+    <p><i>Server:</i></p>
+    <ul>
+      <li>Node.js</li>
+      <li>Express</li>
+      <li>Mongoose</li>
+      <li>MongoDB</li>
+    </ul>
+  </div>
+    <div class="tab-col-3">
+      <p><i>Deployment and Cloud Hosting:</i></p>
+      <ul>
+      <li>Git/GitHub</li>
+      <li>Heroku</li>
+      <li>Atlas</li>
+    </ul>
+  </div> 
+  </div>
+
+  <div id="mLiveApp" class="menew" style="display:none">
+    <p>
+      <a href="http://www.menew-capstone.com/">Menew Live
+      </a>
+    </p> 
+  </div>
+
+  <div id="mGitHub" class="menew" style="display:none">
+    <p>
+    <a href="https://github.com/allyjfuller/menew-client">Client Repository
+      </a>
+    </p>
+    <p>
+    <a href="https://github.com/allyjfuller/menew-server">Server Repository
+      </a>
+    </p>
+  </div>
+
+  <div id="mProgression" class="menew" style="display:none">
+    <p>There is quite a bit I'd like to improve on with this app, it is an original idea of mine and I consider it to be my baby. I'd update the design to appear more organized and feature more information about the bar or restaurant posting the new menu item. I would also add a filter to make it easier to find establishments based on cuisine, price point, and date updated.</p> 
+  </div>
+  </div>
 </div>
 
-<div id="mTechStack" class="menew" style="display:none">
-  <p>Testing testing testing testing</p> 
+<!-- SIDE COLUMN -->
+<div class="col-2">
+
+  <h2>Skills</h2>
+  <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus.</i></p>
+
+  <h2>Strengths</h2>
+  <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus.</i></p>
+
+  <h2>Interests</h2>
+  <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus.</i></p>
+
+  <h2>Languages</h2>
+  <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus.</i></p>
+
+
 </div>
 
-<div id="mLiveApp" class="menew" style="display:none">
-  <p>Testing testing testing</p> 
-</div>
 
-<div id="mGitHub" class="menew" style="display:none">
-  <p>Testing testing</p> 
-</div>
 
-<div id="mProgression" class="menew" style="display:none">
-  <p>Testing</p> 
-</div>
 
+
+
+
+
+
+<!-- CREDENTIALS -->
+<footer class="credentials">
+
+  <div class="education-col-1">
+    <h2>Education</h2>
+
+    <h4>Thinkful: Full-stack Flex</h4>
+    <p>Graduated June 2019</p>
+    <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus.</i></p>
+
+    <h4>The New School: Eugene Lang</h4>
+    <p>2 Years of Attendance</p>
+    <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus.</i></p>
+
+    <h4>Newton North Highschool</h4>
+    <p>Graduated 2012</p>
+    <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec lacus nibh. Praesent eget justo non urna laoreet luctus. Phasellus eu leo nec metus dictum fringilla. Praesent porta vel dolor sed dapibus.</i></p>
+  </div>
+
+  <div class="contact-col-2">
+    <h2>Contact</h2>
+
+    <h4>email: ally@eurotrip.com</h4>
+    <h4>phone: 917 968 5487</h4>
+    <h4>GitHub: <a href="https://github.com/allyjfuller">allyjfuller</a></h4>
+    <h4>Calendly: <a href="https://calendly.com/alexandra-fuller">alexandra-fuller</a></h4>
+    <h4>Linkedin: <a href="https://www.linkedin.com/in/ally-fuller-860500103/">Ally Fuller</a></h4>
+    <h4>home base: New York, NY 10009</h4>
 
   </div>
+</footer>
 </section>
 
 

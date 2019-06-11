@@ -10,8 +10,7 @@
 }
 
 .col-1,
-.col-2,
- {
+.col-2 {
     float: left;
     padding-left: 1.04166666%;
     padding-right: 1.04166666%;
@@ -19,4 +18,30 @@
 
 .col-1 {
 	width: 66%;
+}
+
+.col-2 {
+    width: 25%;
+}
+
+.tab-col-1,
+.tab-col-2,
+.tab-col-3 {
+	float: left;
+	margin-right: 30px;
+}
+
+.invisible {
+	color: #fff;
+}
+
+.education-col-1,
+.contact-col-2 {
+    float: left;
+    width: 48%;
+    padding-right: 30px; 
+}
+
+.education-col-1 {
+    margin-right: 30px;
 }

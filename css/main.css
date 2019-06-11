@@ -31,11 +31,15 @@ p.title {
 }
 
 section.content {
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 h2 {
 	font-family: 'Anton', sans-serif;
+}
+
+h4 {
+  text-transform: uppercase;
 }
 
 h4,
@@ -48,6 +52,20 @@ p.month {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-style: italic;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+input {
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  border: none;
+  color: #000;
+  background-color: #fff305;
+  padding: 12px;
 }
 
 /* SLIDE_SHOW */
@@ -132,6 +150,11 @@ p#caption {
 .tabs {
   overflow: hidden;
   margin-top: 40px;
+}
+
+.tab-content {
+  height: 150px;
+  margin-bottom: 80px;
 }
 
 /* Style the buttons inside the tab */
