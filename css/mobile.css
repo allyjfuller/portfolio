@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px) {
+
+
+img.center {
+	width: 217px;
+	margin-left: 150px;
+	font-size: 58px;
+	
+}
+
+header {
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 5px;
+	
+}
+
+input {
+  font-family: 'Anton', sans-serif;
+  font-size: 14px;
+  border: none;
+  color: #000;
+  background-color: #fff305;
+  padding: 10px;
+}
+
+p.name {
+	font-size: 64px;
+
+}
+
+section.content {
+	margin-top: 25px;
+	padding: 5px;
+}
+
+
+.col-1,
+.col-2 {
+	width: 100%;
+	padding-right: 0px;
+}
+
+.row {
+	width: 100%;
+	padding-left: 20px;
+    
+}
+
+.mySlides1,
+.mySlides2,
+.mySlides3 {
+  height: auto;
+}
+
+.tabs {
+	width: 100%;
+	display: inline-block;
+}
+
+button.sg-button,
+button.eb-button,
+button.m-button {
+  transition-duration: 0.3s;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.education-col-1 {
+	width: 100%;
+}
+
+.tab-content {
+	height: auto;
+
+}
+
+.spiritGuide, .euroBus, .menew {
+    padding: 6px 12px 0px;
+}
+
+p#caption {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
